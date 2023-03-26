@@ -1,0 +1,38 @@
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;    
+
+   }
+
+.nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__logo 
+    {
+        & > img {
+            
+            width: 22.0rem;
+
+           
+    
+        };
+    }
+    &__menu{
+        width: 75%;
+
+
+    & > ul {
+        display: flex;
+        font-size: 2rem;
+        justify-content: space-around;
+        
+    }
+    }
+
+ }

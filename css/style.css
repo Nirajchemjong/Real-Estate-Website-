@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem; }
+
+.nav {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .nav__logo > img {
+    width: 22.0rem; }
+  .nav__menu {
+    width: 75%; }
+    .nav__menu > ul {
+      display: flex;
+      font-size: 2rem;
+      justify-content: space-around; }
