@@ -17,15 +17,41 @@ body {
   padding: 2rem; }
 
 .nav {
-  background-color: aquamarine;
+  background-color: #ECF2F9;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .nav__logo > img {
-    width: 22.0rem; }
+  .nav__logo {
+    margin-right: 3.3rem; }
+    .nav__logo > img {
+      width: 22.0rem; }
   .nav__menu {
-    width: 75%; }
+    width: 85%; }
     .nav__menu > ul {
       display: flex;
-      font-size: 2rem;
-      justify-content: space-around; }
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      justify-content: space-around;
+      align-items: center;
+      color: #7C8893; }
+      .nav__menu > ul li {
+        text-decoration: none;
+        list-style: none; }
+      .nav__menu > ul li:hover:not(:nth-child(6)) {
+        text-decoration: underline;
+        color: #0061E0; }
+      .nav__menu > ul li button.nav__btn {
+        padding: 1.6rem;
+        text-align: center;
+        border: none;
+        background-color: #0061E0;
+        color: white; }
+
+.nav__search--icon {
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: -0.3rem 1rem 2rem 0.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
