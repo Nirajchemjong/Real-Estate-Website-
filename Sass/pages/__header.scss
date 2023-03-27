@@ -1,0 +1,29 @@
+.header{
+    position: relative;
+    .container{
+
+        position: absolute;
+        top: 6.5rem;
+        
+        .header__content{
+            h3{
+                line-height: $tertiary__line;
+                font-size: $tertiary__font;
+                color: $primary__color;
+                font-weight: 200;
+                text-transform: uppercase;
+            }   
+            h1{
+                font-size: 7.2rem;
+                height: 16.4rem;
+                font-weight: 550;
+                
+            }
+            p{
+                color: $gray__color;
+                font-size: $secondary__font;
+                
+            }
+        }
+    }
+}

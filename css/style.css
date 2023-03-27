@@ -9,6 +9,13 @@ html {
 body {
   box-sizing: border-box; }
 
+.primary__btn {
+  background-color: #0061E0;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: white;
+  border: none; }
+
 .container {
   width: 90%;
   display: flex;
@@ -55,3 +62,32 @@ body {
   text-align: center;
   display: flex;
   justify-content: center; }
+
+.header {
+  height: 65vh;
+  background-color: #f4f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header container {
+    display: flex;
+    justify-content: space-between; }
+
+.header {
+  position: relative; }
+  .header .container {
+    position: absolute;
+    top: 6.5rem; }
+    .header .container .header__content h3 {
+      line-height: 2.4rem;
+      font-size: 1.4rem;
+      color: #0061E0;
+      font-weight: 200;
+      text-transform: uppercase; }
+    .header .container .header__content h1 {
+      font-size: 7.2rem;
+      height: 16.4rem;
+      font-weight: 550; }
+    .header .container .header__content p {
+      color: #7C8893;
+      font-size: 1.6rem; }
