@@ -71,7 +71,8 @@ body {
   align-items: center; }
   .header container {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
 
 .header {
   position: relative; }
@@ -86,7 +87,6 @@ body {
       text-transform: uppercase; }
     .header .container .header__content h1 {
       font-size: 7.2rem;
-      height: 16.4rem;
       font-weight: 550; }
     .header .container .header__content p {
       color: #7C8893;
