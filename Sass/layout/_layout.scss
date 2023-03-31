@@ -1,0 +1,120 @@
+
+// starting layout css 
+
+
+.wrapper {
+    
+    display: grid;
+    grid-template-columns:1fr 3fr 3fr 1fr;
+    grid-template-areas:
+        "hd hd hd hd"
+        " . hc hi . "
+        " . sf sf ."
+        " . ai ac ."
+        " . ser ser . "
+        "bc bc bc bc"
+        ". exp exp . "
+        ". ba ba . "
+        ". ft ft . "
+        "test test test test"
+        " . pro pro ."
+        "bcom bcom bcom bcom"
+        " . facv facc . "
+        " . news news . "
+        "newsl newsl newsl newsl"
+        "footer footer footer footer"
+    ;
+    gap: 1rem;
+    background-color: none;
+    
+}
+
+
+
+.header{
+    grid-area: hd;
+    min-height: 11rem;
+   
+
+}
+
+.hero__content{
+    grid-area: hc;
+    padding: 8rem 8rem 0 0;
+}
+.hero__img{
+    grid-area: hi;
+    padding: 8rem 0 8rem 0;
+    // background-color: red;
+    
+  
+}
+.search__form{
+    grid-area: sf;
+    background-color: green;
+}
+.aboutus__img{
+    grid-area: ai;
+    background-color: white;
+}
+.aboutus__content{
+    grid-area: ac;
+    background-color: yellow;
+}
+.services{
+    grid-area: ser;
+    background-color: pink;
+}
+.banner__construction{
+    grid-area: bc;
+    background-color: brown;
+}
+.expertise{
+    grid-area: exp;
+    background-color: bisque;
+}
+.banner__agent{
+    grid-area: ba;
+    background-color: yellowgreen;
+}
+.feature{
+    grid-area: ft;
+    background-color: red;
+    min-height: 75vh;
+}
+.testimonial{
+    grid-area: test;
+    background-color: yellowgreen;
+}
+.properties{
+    grid-area: pro;
+    background-color: powderblue;
+}
+.banner__comp{
+    grid-area: bcom;
+    background-color: blue;
+}
+.facilities__video{
+    grid-area: facv;
+    background-color: yellowgreen;
+}
+.facilities__content{
+    grid-area: facc;
+    background-color: bisque;
+}
+
+.newsfeed{
+    grid-area: news;
+    background-color: blanchedalmond;
+}
+
+.newsletter{
+    grid-area: newsl;
+    background-color: blue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: whitesmoke;
+}
+

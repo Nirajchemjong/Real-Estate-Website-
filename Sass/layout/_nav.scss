@@ -1,69 +1,81 @@
-.container {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
 
-}
+.header {
 
-.nav {
+
+    // .container {
+    //    width: 100%;
+    //     display: flex;
+    //     justify-content: space-around;
+    //     align-items: center;
+        
+    
+    // }
+    padding: 1.3rem;
     background-color: #ECF2F9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 
-    &__logo {
-        &>img {
-            width: 22.0rem;
+    .nav {
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__logo {
+            &>img {
+                width: 22.0rem;
+            }
+
+            
+            margin-right: 3.3rem;
         }
 
-        ;
-        margin-right: 3.3rem;
-    }
-
-    &__menu {
-        width: 85%;
+        &__menu {
+            width: 60rem;
 
 
-        &>ul {
-            display: flex;
-            font-size: $secondary__font;
-            line-height: $tertiary__line;
-            justify-content: space-around;
-            align-items: center;
-            color: $gray__color;
+            &>ul {
 
-            & li {
-                text-decoration: none;
-                list-style: none;
+                display: flex;
+                font-size: $secondary__font;
+                line-height: $tertiary__line;
+                justify-content: space-around;
+                align-items: center;
+                color: $gray__color;
 
-            }
+                & li {
+                    text-decoration: none;
+                    list-style: none;
 
-            & li:hover:not(:nth-child(6)) {
-                text-decoration: underline;
-                color: $primary__color;
+                }
 
-            }
+                & li:hover:not(:nth-child(6)) {
+                    text-decoration: underline;
+                    color: $primary__color;
 
-            & li button.nav__btn {
-                padding: 1.6rem;
-                text-align: center;
-                border: none;
-                background-color: $primary__color;
-                color: white;
+                }
 
+                & li button.nav__btn {
+                    padding: 1.6rem;
+                    text-align: center;
+                    border: none;
+                    background-color: $primary__color;
+                    color: white;
+
+                }
             }
         }
+
     }
 
-}
-.nav__search--icon{
-    padding: 1rem;
-    background-color: #FFFFFF;
-    border-radius: 50%;   
-    box-shadow: -0.3rem 1rem 2rem 0.5rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    .nav__search--icon {
+        padding: 1rem;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        box-shadow: -0.3rem 1rem 2rem 0.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
 }
