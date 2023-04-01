@@ -1,0 +1,52 @@
+.aboutus__img{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+    & > img.stairs {
+        height: 60.2rem;
+        width: 42.2rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &-content{
+        height: 28.7rem;
+        position: relative;
+        top: -24rem;
+        align-self: center;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        gap: 2rem;
+        padding: 1.4rem;
+        box-shadow: .5rem .3rem .3rem 0 rgb(143, 139, 139);
+        border-radius: .6rem;
+        & >img{
+            height: 8.2rem;
+            width: 7rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            font-size: 2.2rem;
+            font-weight:300;
+            width:40%;
+            line-break: strict;
+        }
+        p{
+            font-size: $secondary__font;
+            font-weight: 100;
+            color: $gray__color;
+        }
+    }
+}
+.aboutus__content{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}

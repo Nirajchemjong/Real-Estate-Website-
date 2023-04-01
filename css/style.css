@@ -242,3 +242,49 @@ body {
         color: #0061E0;
         font-weight: 800;
         font-size: 3.4rem; }
+
+.aboutus__img {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
+  .aboutus__img > img.stairs {
+    height: 60.2rem;
+    width: 42.2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .aboutus__img-content {
+    height: 28.7rem;
+    position: relative;
+    top: -24rem;
+    align-self: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.4rem;
+    box-shadow: 0.5rem 0.3rem 0.3rem 0 #8f8b8b;
+    border-radius: .6rem; }
+    .aboutus__img-content > img {
+      height: 8.2rem;
+      width: 7rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .aboutus__img-content h1 {
+      font-size: 2.2rem;
+      font-weight: 300;
+      width: 40%;
+      line-break: strict; }
+    .aboutus__img-content p {
+      font-size: 1.6rem;
+      font-weight: 100;
+      color: #7C8893; }
+
+.aboutus__content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column; }
