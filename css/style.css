@@ -9,12 +9,67 @@ html {
 body {
   box-sizing: border-box; }
 
+.margin-left {
+  margin-left: 3rem; }
+
 .primary__btn {
   background-color: #0061E0;
   padding: 2rem 4rem;
   text-align: center;
   color: white;
   border: none; }
+
+.search__form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 3rem;
+  padding: 4rem;
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0.3rem 0.1rem 0.4rem 0.3rem #b0afaf; }
+  .search__form .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24.5rem;
+    height: 6rem;
+    font-size: 1.6rem;
+    color: #7C8893;
+    border: 1px solid blue;
+    transition: all .3s; }
+  .search__form .bedroom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24.5rem;
+    height: 6rem;
+    font-size: 1.6rem;
+    color: #7C8893;
+    border: 1px solid blue;
+    transition: all .3s; }
+  .search__form .rent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24.5rem;
+    height: 6rem;
+    font-size: 1.6rem;
+    color: #7C8893;
+    border: 1px solid blue;
+    transition: all .3s; }
+  .search__form .location:hover, .search__form .location:active, .search__form .bedroom:hover, .search__form .bedroom:active,
+  .search__form .rent:hover, .search__form .rent:active {
+    border: none;
+    outline: 1px solid #0061E0;
+    color: #0061E0; }
+  .search__form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .search__form-btn > img {
+      width: 2.4rem;
+      height: 2.4rem; }
 
 .wrapper {
   display: grid;
@@ -24,8 +79,7 @@ body {
   background-color: none; }
 
 .header {
-  grid-area: hd;
-  min-height: 11rem; }
+  grid-area: hd; }
 
 .hero__content {
   grid-area: hc;
@@ -33,11 +87,11 @@ body {
 
 .hero__img {
   grid-area: hi;
-  padding: 8rem 0 8rem 0; }
+  padding: 8rem 0 8rem 0;
+  height: 80vh; }
 
 .search__form {
-  grid-area: sf;
-  background-color: green; }
+  grid-area: sf; }
 
 .aboutus__img {
   grid-area: ai;

@@ -33,7 +33,7 @@
 
 .header{
     grid-area: hd;
-    min-height: 11rem;
+  
    
 
 }
@@ -41,17 +41,18 @@
 .hero__content{
     grid-area: hc;
     padding: 8rem 8rem 0 0;
+    // background-color: red;
 }
 .hero__img{
     grid-area: hi;
     padding: 8rem 0 8rem 0;
-    // background-color: red;
+    height: 80vh;
     
   
 }
 .search__form{
     grid-area: sf;
-    background-color: green;
+    
 }
 .aboutus__img{
     grid-area: ai;
