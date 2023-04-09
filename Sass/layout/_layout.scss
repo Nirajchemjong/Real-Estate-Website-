@@ -8,7 +8,7 @@
     grid-template-columns:1fr 3fr 3fr 1fr;
     grid-template-areas:
         "hd hd hd hd"
-        " . hc hi . "
+        "hero hero hero hero"
         " . sf sf ."
         " . ai ac ."
         " . ser ser . "
@@ -37,20 +37,32 @@
    
 
 }
+// [class^="hero"]{
+//     border: 3px solid black;
+// }
 
+.hero{
+    grid-area: hero;
+}
 .hero__content{
-    grid-area: hc;
-    padding: 8rem 8rem 0 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    padding: 6rem;
+    // margin-left: 0;
+    
     // background-color: red;
 }
 .hero__img{
-    grid-area: hi;
-    padding: 8rem 0 8rem 0;
-    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    // margin-right: 0 ;
     
-  
-}
+    // padding: 6rem 0 0 0;
+   }
 .search__form{
+            
     grid-area: sf;
     
 }
