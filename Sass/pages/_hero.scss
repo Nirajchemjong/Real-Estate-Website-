@@ -20,27 +20,34 @@
 //     /* CSS properties for styling the "hc" grid item */
 //     background-color: red;
 // }
-.hero{
+.hero {
     background-color: #F4F9FF;
     display: flex;
 
+   
 
-    &__content{
-    
-    
-        h3{
+
+    &__content {
+
+        // position: absolute;
+        // top: 12rem;
+        margin-top: -22rem;
+
+        h3 {
             line-height: $tertiary__line;
             font-size: $tertiary__font;
             color: $primary__color;
             font-weight: 200;
             text-transform: uppercase;
-        }   
-        h1{
+        }
+
+        h1 {
             font-size: 7.2rem;
             font-weight: 550;
-            
+
         }
-        p{
+
+        p {
             color: $gray__color;
             font-size: $secondary__font;
             margin-bottom: 3rem;
@@ -48,58 +55,59 @@
     }
 
 
-&__img{
+    &__img {
 
-position: relative;
+        position: relative;
 
-&--main{
-   
-    display: flex;
-    flex-direction: column;
+        &--main {
 
-    
-    & > img {
-        width: 60rem;
-        height: 60.0rem;
-        background-position:center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-}
-&--rating{
-    position: absolute;
-    top: 14%;
-    left: 45%;
-}
+            display: flex;
+            flex-direction: column;
 
-&--box{
-    position: relative;
-    top: -9rem;
-    left: 9rem;
-    background-color: #FFFFFF;
-    width: 40%;
-    text-align: center;
-    padding: 3rem 0 0 0;
-    margin-bottom: -8rem;
-   
-    
-    p{
-        font-size: $secondary__font;
-        color: $gray__color;
-        padding-bottom: 2rem;
-    
-        span{
-            color: $primary__color;
-            font-weight: 800;
-            font-size: 3.4rem;
+
+            &>img {
+                width: 60rem;
+                height: 60.0rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
         }
+
+        &--rating {
+            position: absolute;
+            top: 14%;
+            left: 45%;
+        }
+
+        &--box {
+            position: relative;
+            top: -9rem;
+            left: 9rem;
+            background-color: #FFFFFF;
+            width: 40%;
+            text-align: center;
+            padding: 3rem 0 0 0;
+            margin-bottom: -8rem;
+
+
+            p {
+                font-size: $secondary__font;
+                color: $gray__color;
+                padding-bottom: 2rem;
+
+                span {
+                    color: $primary__color;
+                    font-weight: 800;
+                    font-size: 3.4rem;
+                }
+            }
+        }
+
+
     }
 }
 
 
-}
-}
-    
-    
 // }
