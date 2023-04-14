@@ -21,9 +21,15 @@
 //     background-color: red;
 // }
 .hero {
-    background-color: #F4F9FF;
-    display: flex;
+    background-color: #E8F2FF;
 
+    & > .container{
+
+       
+        display: flex;
+    
+
+    }
    
 
 

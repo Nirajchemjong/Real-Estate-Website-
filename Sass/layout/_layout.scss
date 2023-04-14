@@ -29,7 +29,10 @@
     
 }
 
-
+.container{
+    width: 95%;
+    margin: auto;
+}
 
 .header{
     grid-area: hd;
@@ -40,6 +43,7 @@
 // [class^="hero"]{
 //     border: 3px solid black;
 // }
+
 
 .hero{
     grid-area: hero;

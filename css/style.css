@@ -22,7 +22,7 @@ body {
 .search__form {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: -3rem auto;
   gap: 3rem;
   padding: 4rem;
   width: 80%;
@@ -76,6 +76,10 @@ body {
   grid-template-columns: 1fr 3fr 3fr 1fr;
   grid-template-areas: "hd hd hd hd" "hero hero hero hero" " . sf sf ." " . ai ac ." " . ser ser . " "bc bc bc bc" ". exp exp . " ". ba ba . " ". ft ft . " "test test test test" " . pro pro ." "bcom bcom bcom bcom" " . facv facc . " " . news news . " "newsl newsl newsl newsl" "footer footer footer footer";
   background-color: none; }
+
+.container {
+  width: 95%;
+  margin: auto; }
 
 .header {
   grid-area: hd; }
@@ -200,8 +204,9 @@ body {
   justify-content: center; }
 
 .hero {
-  background-color: #F4F9FF;
-  display: flex; }
+  background-color: #E8F2FF; }
+  .hero > .container {
+    display: flex; }
   .hero__content {
     margin-top: -22rem; }
     .hero__content h3 {
@@ -251,28 +256,29 @@ body {
           font-size: 3.4rem; }
 
 .aboutus__img {
-  padding: 3rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end; }
+  align-items: flex-end;
+  position: relative; }
   .aboutus__img > img.stairs {
     height: 60.2rem;
-    width: 42.2rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
   .aboutus__img-content {
     height: 28.7rem;
-    position: relative;
-    top: -24rem;
-    align-self: center;
+    width: 28%;
+    position: absolute;
+    top: 38rem;
+    left: 20rem;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    padding: 1.4rem;
+    padding: 1.8rem;
     box-shadow: 0.5rem 0.3rem 0.3rem 0 #8f8b8b;
     border-radius: .6rem; }
     .aboutus__img-content > img {
@@ -295,3 +301,8 @@ body {
   padding: 3rem;
   display: flex;
   flex-direction: column; }
+
+.services {
+  content: "";
+  clear: both;
+  display: table; }
